@@ -1,15 +1,17 @@
 {
   imports = [
-    ./plugins.nix
-    ./options.nix
-    # ./keymappings.nix
-    # ./plug-conf/auto-save.nix
+
+    # General Configuration
+    ./settings.nix
+    ./keymaps.nix
+    ./auto_cmds.nix
+    ./file_types.nix
     # Themes
-    # ./plugins/themes
+    ./plugins/themes
 
     # Completion
     ./plugins/cmp/cmp.nix
-    ./plugins/cmp/cmp-copilot.nix
+    # ./plugins/cmp/cmp-copilot.nix
     ./plugins/cmp/lspkind.nix
     ./plugins/cmp/autopairs.nix
     ./plugins/cmp/schemastore.nix
@@ -35,7 +37,7 @@
     # LSP and formatting
     ./plugins/lsp/lsp.nix
     ./plugins/lsp/conform.nix
-    ./plugins/lsp/fidget.nix
+    # ./plugins/lsp/fidget.nix
 
     # Git
     ./plugins/git/lazygit.nix
