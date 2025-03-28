@@ -2,10 +2,11 @@
   imports = [
 
     # General Configuration
-    ./settings.nix
-    ./keymaps.nix
+    ./options.nix
+    ./keymappings.nix
     ./auto_cmds.nix
     ./file_types.nix
+
     # Themes
     ./plugins/themes
 
