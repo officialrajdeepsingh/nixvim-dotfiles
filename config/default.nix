@@ -22,6 +22,7 @@
 
     # Editor plugins and configurations
     ./plugins/editor/neo-tree.nix
+    ./plugins/editor/tailwind-tools.nix
     ./plugins/editor/treesitter.nix
     ./plugins/editor/undotree.nix
     ./plugins/editor/illuminate.nix
