@@ -19,7 +19,7 @@
       number = true;
 
       # Show relative line numbers
-      relativenumber = true;
+      # relativenumber = false;
 
       # Use the system clipboard
       clipboard = "unnamedplus";
