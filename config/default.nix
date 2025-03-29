@@ -29,6 +29,7 @@
     ./plugins/editor/todo-comments.nix
     ./plugins/editor/copilot-chat.nix
     ./plugins/editor/navic.nix
+    ./plugins/editor/yazi.nix
 
     # UI plugins
     ./plugins/ui/bufferline.nix
