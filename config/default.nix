@@ -30,7 +30,7 @@
     ./plugins/editor/copilot-chat.nix
     ./plugins/editor/navic.nix
     ./plugins/editor/yazi.nix
-    ./plugins/editor/oil.nix
+    # ./plugins/editor/oil.nix
 
     # UI plugins
     ./plugins/ui/bufferline.nix
