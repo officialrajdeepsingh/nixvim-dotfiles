@@ -1,5 +1,8 @@
 {
   plugins.yazi = {
-    enabled: true;
+    enable = true;
+    settings = {
+      enable_mouse_support = true;
+    };
   };
-};
+}
