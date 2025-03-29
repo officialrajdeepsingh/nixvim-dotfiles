@@ -11,11 +11,10 @@
       enable = true;
     };
     lsp = {
-
       enable = true;
       inlayHints = true;
-
       servers = {
+
         html = {
           enable = true;
         };
@@ -40,7 +39,7 @@
         jsonls = {
           enable = true;
         };
-       bashls = {
+        bashls = {
           enable = true;
         };
         eslint = {
