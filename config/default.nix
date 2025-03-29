@@ -21,7 +21,7 @@
     ./plugins/snippets/luasnip.nix
 
     # Editor plugins and configurations
-    ./plugins/editor/neo-tree.nix
+    # ./plugins/editor/neo-tree.nix
     ./plugins/editor/treesitter.nix
     ./plugins/editor/undotree.nix
     ./plugins/editor/illuminate.nix
@@ -30,6 +30,7 @@
     ./plugins/editor/copilot-chat.nix
     ./plugins/editor/navic.nix
     ./plugins/editor/yazi.nix
+    ./plugins/editor/oil.nix
 
     # UI plugins
     ./plugins/ui/bufferline.nix
