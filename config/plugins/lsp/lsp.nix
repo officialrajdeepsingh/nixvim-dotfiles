@@ -11,10 +11,15 @@
       enable = true;
     };
     lsp = {
+
       enable = true;
       inlayHints = true;
+
       servers = {
         html = {
+          enable = true;
+        };
+        tailwindcss={
           enable = true;
         };
         lua_ls = {
@@ -29,32 +34,20 @@
         marksman = {
           enable = true;
         };
-        pyright = {
-          enable = true;
-        };
-        gopls = {
-          enable = true;
-        };
-        terraformls = {
-          enable = true;
-        };
-        ansiblels = {
+        dockerls = {
           enable = true;
         };
         jsonls = {
           enable = true;
         };
-        helm_ls = {
+       bashls = {
           enable = true;
-          extraOptions = {
-            settings = {
-              "helm_ls" = {
-                yamlls = {
-                  path = "${pkgs.yaml-language-server}/bin/yaml-language-server";
-                };
-              };
-            };
-          };
+        };
+        eslint = {
+          enable = true;
+        };
+        denols = {
+          enable = true;
         };
         yamlls = {
           enable = true;
@@ -77,6 +70,7 @@
             };
           };
         };
+
       };
 
       keymaps = {
@@ -132,9 +126,9 @@
       };
     };
   };
-  extraPlugins = with pkgs.vimPlugins; [
-    ansible-vim
-  ];
+  # extraPlugins = with pkgs.vimPlugins; [
+  #   ansible-vim
+  # ];
 
   extraConfigLua = ''
     local _border = "rounded"
