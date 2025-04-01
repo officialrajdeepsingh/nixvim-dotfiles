@@ -1,5 +1,5 @@
 {
-  description = "deCort.tech NeoVim configuration";
+  description = "NeoVim configuration based on NixVim.";
 
   inputs = {
     ## Nixpkgs
@@ -54,11 +54,8 @@
           nixvim' = nixvim.legacyPackages.${system};
           nixvimModule = {
             inherit pkgs;
-            module = import ./config;  # import the module directly
-            # You can use `extraSpecialArgs` to pass additional arguments to your module files
-            extraSpecialArgs = {
-              # inherit (inputs) foo;
-            };
+            module = import ./config; # import the module directly
+            extraSpecialArgs = { }; # You can use `extraSpecialArgs` to pass additional arguments to your module files ex: inherit (inputs) foo;
           };
           nvim = nixvim'.makeNixvimWithModule nixvimModule;
         in
