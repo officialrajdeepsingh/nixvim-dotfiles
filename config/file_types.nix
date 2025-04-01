@@ -1,4 +1,3 @@
-
 {
   autoGroups = {
     filetypes = { };
