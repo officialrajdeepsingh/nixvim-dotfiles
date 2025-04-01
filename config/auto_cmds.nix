@@ -10,7 +10,7 @@
   autoCmd = [
     {
       group = "highlight_yank";
-      event = [ "TextYankPost" ];
+      event = [ "TextYankPost"  ];
       pattern = "*";
       callback = {
         __raw = ''
