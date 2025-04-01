@@ -3,16 +3,13 @@
     enable = true;
   };
   plugins.copilot-lua = {
-    settings = {
-      copilot = {
-        suggestion = {
-          enabled = false;
-        };
-        # panel = {
-        #   enabled = false;
-        # };
-      };
-    };
+    enable = true;
+    #settings = {
+
+    # suggestion = { enabled = true; };
+    # panel = { enabled = true; };
+
+    # };
   };
 
   extraConfigLua = ''
