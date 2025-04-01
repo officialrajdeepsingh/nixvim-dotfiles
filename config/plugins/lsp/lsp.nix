@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ ... }:
 {
   plugins = {
     lsp-lines = {
@@ -20,6 +20,10 @@
         };
         tailwindcss = {
           enable = true;
+          filetypes = [
+            "html"
+            "ts_ls"
+          ];
         };
         lua_ls = {
           enable = true;
