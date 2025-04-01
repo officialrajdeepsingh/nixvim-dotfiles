@@ -1,4 +1,3 @@
-
 {
   autoGroups = {
     highlight_yank = { };
@@ -10,7 +9,7 @@
   autoCmd = [
     {
       group = "highlight_yank";
-      event = [ "TextYankPost"  ];
+      event = [ "TextYankPost" ];
       pattern = "*";
       callback = {
         __raw = ''
