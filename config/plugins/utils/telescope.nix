@@ -23,7 +23,7 @@
       "<leader><space>" = {
         action = "find_files";
         options = {
-          desc = "Find project files";
+          desc = "Find the file in your project";
         };
       };
       "<leader>/" = {
@@ -167,7 +167,7 @@
       "<leader>uC" = {
         action = "colorscheme";
         options = {
-          desc = "Colorscheme preview";
+          desc = "change the theme with preview";
         };
       };
     };
