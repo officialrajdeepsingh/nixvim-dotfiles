@@ -4,10 +4,10 @@ _: {
     settings = {
       signs = {
         add = {
-          text = " ";
+          text = "";
         };
         change = {
-          text = " ";
+          text = "";
         };
         delete = {
           text = " ";
@@ -16,10 +16,10 @@ _: {
           text = "";
         };
         topdelete = {
-          text = "󱂥 ";
+          text = "󱂥";
         };
         changedelete = {
-          text = "󱂧 ";
+          text = "󱂧";
         };
       };
     };
