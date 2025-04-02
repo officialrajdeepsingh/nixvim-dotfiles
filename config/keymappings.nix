@@ -191,7 +191,7 @@
       key = "<C-s>";
       action = "<cmd>w<cr><esc>";
       options = {
-        desc = "Save File";
+        desc = "Save Your open file";
       };
     }
     {
@@ -379,14 +379,14 @@
         desc = "Go to Right Window";
       };
     }
-    {
-      mode = "t";
-      key = "<C-/>";
-      action = "<cmd>close<cr>";
-      options = {
-        desc = "Hide Terminal";
-      };
-    }
+    # {
+    #   mode = "t";
+    #   key = "<C-/>";
+    #   action = "<cmd>close<cr>";
+    #   options = {
+    #     desc = "Hide Terminal";
+    #   };
+    # }
     {
       mode = "n";
       key = "<leader>ww";
@@ -467,7 +467,7 @@
     }
     {
       mode = "n";
-      key = "<leader><tab>]";
+      key = "<leader><tab>";
       action = "<cmd>tabnext<cr>";
       options = {
         desc = "Next Tab";
@@ -494,7 +494,7 @@
       key = "<leader>y";
       action = "<cmd>Yazi<cr>";
       options = {
-        desc = "Open yazi";
+        desc = "Open yazi file manager";
       };
     }
   ];
