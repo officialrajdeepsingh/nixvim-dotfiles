@@ -1,6 +1,6 @@
-<h2 align="center">Nixvim</h2>
+<h1 align="center">NixVim</h1>
 
-> This repository contains my Neovim configuration, which is declaratively written in Nix.
+This repository contains my Neovim configuration, which is based on [NixVim](https://github.com/nix-community/nixvim). NixVim is a Neovim configuration system for Nix.
 
 **Configuring/editting**
 
@@ -54,3 +54,54 @@ Or you can always [take a look yourself](https://github.com/officialrajdeepsingh
 ---
 
 > <https://nix-community.github.io/nixvim/search>
+
+---
+
+## Neovim Plugins
+
+The following plugin is installed in this nixvim configuration.
+
+```markdown
+config/plugins/
+├── cmp
+│   ├── autopairs.nix
+│   ├── cmp-copilot.nix
+│   ├── cmp.nix
+│   ├── lspkind.nix
+│   └── schemastore.nix
+├── editor
+│   ├── copilot-chat.nix
+│   ├── illuminate.nix
+│   ├── indent-blankline.nix
+│   ├── navic.nix
+│   ├── neo-tree.nix
+│   ├── oil.nix
+│   ├── todo-comments.nix
+│   ├── treesitter.nix
+│   ├── undotree.nix
+│   └── yazi.nix
+├── git
+│   ├── gitsigns.nix
+│   └── lazygit.nix
+├── lsp
+│   ├── conform.nix
+│   ├── fidget.nix
+│   └── lsp.nix
+├── snippets
+│   └── luasnip.nix
+├── themes
+│   └── default.nix
+├── ui
+│   ├── bufferline.nix
+│   ├── lualine.nix
+│   └── startup.nix
+└── utils
+├── extra_plugins.nix
+├── markdown-preview.nix
+├── mini.nix
+├── obsidian.nix
+├── telescope.nix
+├── toggleterm.nix
+├── web-devicons.nix
+└── whichkey.nix
+```
