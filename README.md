@@ -49,11 +49,14 @@ And then I have a `packages.nix` file that contains:
 }
 ```
 
-Or you can always [take a look yourself](https://github.com/officialrajdeepsingh/nixvim-dotfiles)
+You can always check [if you encounter an error while using this repository in NixO0S](https://github.com/officialrajdeepsingh/dotfiles).
 
 ---
 
-> <https://nix-community.github.io/nixvim/search>
+# Resource
+
+- <https://nix-community.github.io/nixvim/search>
+- <https://nix-community.github.io/nixvim/index.html>
 
 ---
 
@@ -105,3 +108,5 @@ config/plugins/
 ├── web-devicons.nix
 └── whichkey.nix
 ```
+
+> Huge thanks to [Ahwxorg](https://github.com/Ahwxorg) and [Elythh](https://github.com/elythh).
