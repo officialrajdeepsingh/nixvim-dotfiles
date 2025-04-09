@@ -48,9 +48,9 @@
         eslint = {
           enable = true;
         };
-        denols = {
-          enable = true;
-        };
+        # denols = {
+        #  enable = true;
+        # };
         yamlls = {
           enable = true;
           # extraOptions = {
