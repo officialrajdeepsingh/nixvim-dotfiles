@@ -48,6 +48,9 @@
         eslint = {
           enable = true;
         };
+        nixd = {
+          enable = true;
+        };
         # denols = {
         #  enable = true;
         # };
@@ -130,9 +133,6 @@
       };
     };
   };
-  # extraPlugins = with pkgs.vimPlugins; [
-  #   ansible-vim
-  # ];
 
   extraConfigLua = ''
     local _border = "rounded"
