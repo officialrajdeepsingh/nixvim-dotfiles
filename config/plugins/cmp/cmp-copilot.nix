@@ -4,16 +4,13 @@
   };
   plugins.copilot-lua = {
     enable = true;
-    #settings = {
-
+    copilotNodeCommand = "node";
     suggestion = {
       enabled = false;
     };
     panel = {
       enabled = false;
     };
-
-    # };
   };
 
   extraConfigLua = ''
